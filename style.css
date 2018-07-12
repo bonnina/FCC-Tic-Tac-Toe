@@ -86,8 +86,12 @@ button {
 }
 
 .fa {
-  color: rgb(115, 115, 115, 0.5);
+  color: #666666;
   padding: 10px;
+}
+
+.fa:focus, .fa:active {
+  color: white;
 }
 
 #reset {
